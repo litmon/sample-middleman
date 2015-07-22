@@ -47,6 +47,8 @@
 #   end
 # end
 
+set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
